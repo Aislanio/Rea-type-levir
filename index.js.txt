@@ -1,0 +1,23 @@
+function Button(){
+	return <button>Teste</button>
+}
+function app(){
+	return(
+		<div><div>
+	)
+}
+
+Ane franklin 
+
+ela foi mandanda no campo de consetração.
+
+holandes fala pelo radio que pegar os diarios 
+para fazer um livro.
+
+o pai dela oto ele leu os diarios e publicou mas 
+preservou algumas partes,eles eram judeus,ela ficou dentro de um anexo.
+
+editite
+margo -irma
+
+sani e halela , jaqueline

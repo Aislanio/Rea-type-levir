@@ -1,0 +1,21 @@
+1 React: Uma biblioteca/ Framework para trabalhar com desenvolvimento Frontend.
+
+2 Virtual DOM: Árvore de elementos que roda em memória.
+
+3 JSX:  JavaScript XML(HTML no JavaScript)
+
+4 Configura webpack vs Utilizar o CRA
+
+Webpack:
+- Controle maior.
+- Mais leve.
+
+CRA:
+- Mais prático.
+- Maior compatibilidade.
+
+
+Propiedades (props)
+
+
+Children= props.children

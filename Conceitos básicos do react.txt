@@ -1,0 +1,63 @@
+
+
+1 React: Uma biblioteca/ Framework para trabalhar com desenvolvimento Frontend.
+
+2 Virtual DOM: Árvore de elementos que roda em memória.
+
+3 JSX:  JavaScript XML(HTML no JavaScript)
+
+4 Configura webpack vs Utilizar o CRA
+
+Webpack:
+- Controle maior.
+- Mais leve.
+
+CRA: npx create-react-app my-app
+
+- Mais prático.
+- Maior compatibilidade.
+
+
+Propiedades (props)
+
+
+Children= props.children: Voce passa pela abertura das tags: <Button> Texto Children</Button>
+
+export default function Button(props){
+	return(
+		<button>{props.children}</button>
+	);
+}
+////hOLKES   -FUNÇOES   DE  GANCHO
+Cliclo de vida do  react  / componente 
+1.quando  ele é montando   ex:  quando esse  componente é muntado busque tal coisa em uma api
+
+2. quando ele é atualizado / quando as  props ou os  esstados muda  o componete  ele atualiza
+
+3.Quando  o  componete  morre(desmontado)/
+
+
+sempre que  a varialvel mudar o  nosso componente vai  atualizar
+
+import {useState} from 'react';
+
+const [slip,setslip]= useState();
+
+function MudaContador(){
+		setContador(contador +1);
+	}
+	
+Forma mais correta // ele pega o valor alterado e depois soma
+old = padrão
+setContador((oldContador) => oldContador +1);
+///
+
+useEffec// hook  de clico de vida
+
+useEffect(()  =>{//Sempre vai executar quando
+		
+},[]);
+[]-array   de  dependecias /sera todas  as  variaveis que   não
+//o  react  ele   pega  todos  os hooks, mas ele  não  pode estar   dentro  de  um escpo  porque  o react   não  vai   o  encontra
+
+//hook  são  ganchos 
